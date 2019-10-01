@@ -1,13 +1,13 @@
-#include<iostream.h>
-#include<conio.h>
+#include<iostream>
 int fact(int);
-void main()
+using namespace std;
+int main()
 {
  int n,f;
- clrscr();
  cin>>n;
  f=fact(n);
  cout<<f;
+ return 0;
 }
 int fact(int n)
 {
